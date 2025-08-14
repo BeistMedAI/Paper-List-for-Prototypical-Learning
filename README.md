@@ -49,8 +49,6 @@
 </p>
 
 </div>
-
-本清单汇总“原型/部件”范式下的可解释图像理解论文，按 A–K 十一类组织（允许一文多类），并对医学影像（J 类）进一步做器官/模态/任务细分。
 The list covers interpretable, prototype/part-based vision papers, organized by A–K taxonomy (multi-label). Medical Imaging (J) is further split into organ/modality/task subcategories.
 
 ### A–K 类别速览 · A–K at a glance
