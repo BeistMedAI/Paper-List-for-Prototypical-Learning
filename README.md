@@ -100,7 +100,7 @@ The list covers interpretable, prototype/part-based vision papers, organized by 
 
 ## <div id = "s1"></div> A. Foundations & general prototype-part models 
 
-- [[2019-NeurIPS]](https://proceedings.neurips.cc/paper/2019/file/adf7ee2dcf142b0e11888e72b43fcb75-Paper.pdf) **This looks like that_deep learning for interpretable image recognition** [:octocat:](https://github.com/jakesnell/prototypical-networks)
+- [[2019-NeurIPS]](https://proceedings.neurips.cc/paper/2019/file/adf7ee2dcf142b0e11888e72b43fcb75-Paper.pdf) **This looks like that: deep learning for interpretable image recognition** [:octocat:](https://github.com/jakesnell/prototypical-networks)
   - 简介（中文）: 开创“这像那”的原型-部件范式：学习若干原型部件，并以图像局部与原型的匹配作为决策证据，给出可视化的逐步解释。
   - Intro (EN): Foundational 'This Looks Like That' prototype-part paradigm: learns a set of prototypical parts and matches them to image patches to justify decisions.
 - [[2019-AAAI]](https://ojs.aaai.org/index.php/HCOMP/article/view/5265) **Interpretable Image Recognition with Hierarchical Prototypes** 
@@ -151,7 +151,7 @@ The list covers interpretable, prototype/part-based vision papers, organized by 
 - [[2022-ICML]](https://proceedings.mlr.press/v162/kim22g/kim22g.pdf) **Vit-net: Interpretable vision transformers with neural tree decoder** [:octocat:](https://github.com/jumpsnack/ViT-NeT)
   - 简介（中文）: 把原型/树结构融入ViT，形成“Transformer特征+可解释树解码”的组合。
   - Intro (EN): Fuses ViT features with a tree decoder, marrying transformer representations with transparent prototype reasoning.
-- [[2024-IJCAI]](https://www.ijcai.org/proceedings/2024/168) **ProtoPFormer_Concentrating on Prototypical Parts in Vision Transformers for Interpretable Image Recognitio** [:octocat:](https://github.com/zju-vipa/ProtoPFormer)
+- [[2024-IJCAI]](https://www.ijcai.org/proceedings/2024/168) **ProtoPFormer: Concentrating on Prototypical Parts in Vision Transformers for Interpretable Image Recognitio** [:octocat:](https://github.com/zju-vipa/ProtoPFormer)
   - 简介（中文）: 在ViT上专注于原型化的局部部件，抑制背景干扰，提升解释聚焦度。
   - Intro (EN): Prototype-focused ViT that suppresses background distraction, sharpening attention on meaningful parts.
 - [[2024-ISBI]](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10635182&casa_token=kEs0mPH5s5QAAAAA:lb-VTTALa7DeUJ8OXO3ZaivR2Wl-kAcNgxdB6HiQgmf0ggkDUnYTFEDyj5Nv8fL2F4ZRiURW4g) **Explainable transformer prototypes for medical diagnoses** [:octocat:](https://github.com/NUBagcilab/r2r_proto)
@@ -181,13 +181,13 @@ The list covers interpretable, prototype/part-based vision papers, organized by 
 - [[2023-JBHI]](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10290723&casa_token=3ayrYdj6bekAAAAA:ND9zMo8PowTyi_hywubBzd7YzKCFIp4hlVR3PI6yDoVBye3j6SCoequKrnACUhRoPQp7H_cP3A) **Interpretable inference and classification of tissue types in histological colorectal cancer slides based on ensembles adaptive boosting prototype tree** 
   - 简介（中文）: 基于集成/Boosting的原型树，在病理切片上解释组织类型判别。
   - Intro (EN): Ensemble/boosted prototype trees for tissue classification on histology slides with transparent rules.
-- [[2025-ICCVW_BEW]](https://openreview.net/forum?id=PcF9Q51rF1&noteId=KSZAX91CoY) **HAPPI_Hyperbolic Hierarchical Part Prototypes for Image Recognition** 
+- [[2025-ICCVW_BEW]](https://openreview.net/forum?id=PcF9Q51rF1&noteId=KSZAX91CoY) **HAPPI: Hyperbolic Hierarchical Part Prototypes for Image Recognition** 
   - 简介（中文）: 在超曲几何中学习层级原型，提升层次结构表达与相似度度量。
   - Intro (EN): Learns hierarchical prototypes in hyperbolic geometry to better encode tree-like relations.
 - [[2025-ICLR]](https://openreview.net/forum?id=4sDicVEy6M) **What Do You See in Common？Learning Hierarchical Prototypes over Tree-of-Life to Discover Evolutionary Traits** [:octocat:](https://github.com/Imageomics/HComPNet)
   - 简介（中文）: 在原型基础上引入层级结构（从部件到概念），让解释具备“由细到粗”的语义层次。
   - Intro (EN): Introduces hierarchical prototypes (from parts to concepts), enabling explanations at multiple semantic levels.
-- [[2025-JBHI]](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10955117&casa_token=sTYYDiTd42cAAAAA:JU_OQVG1R0u18yid6HvEDCOri1b_7N7f89WZinPRn83aVnceKKjvB2ksF4GGPi_JciMq0B08EQ) **Progressive_Mining_and_Dynamic_Distillation_of_Hierarchical_Prototypes_for_Disease_Classification_and_Localisation** [:octocat:](https://github.com/cwangrun/HierProtoPNet)
+- [[2025-JBHI]](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10955117&casa_token=sTYYDiTd42cAAAAA:JU_OQVG1R0u18yid6HvEDCOri1b_7N7f89WZinPRn83aVnceKKjvB2ksF4GGPi_JciMq0B08EQ) **Progressive mining and dynamic distillation of hierarchical prototypes for disease classification and localisation** [:octocat:](https://github.com/cwangrun/HierProtoPNet)
   - 简介（中文）: 渐进挖掘与动态蒸馏层级原型，同时兼顾定位与分类。
   - Intro (EN): Progressive mining and dynamic distillation of hierarchical prototypes for joint localization/classification.
 
@@ -273,7 +273,7 @@ The list covers interpretable, prototype/part-based vision papers, organized by 
 - [[2024-AAAI]](https://ojs.aaai.org/index.php/AAAI/article/view/30109) **On the concept trustworthiness in concept bottleneck models** [:octocat:](https://github.com/hqhQAQ/ProtoCBM)
   - 简介（中文）: 讨论概念瓶颈模型的概念可信度，提醒概念误标或漂移的风险。
   - Intro (EN): Studies concept bottleneck trustworthiness, warning against mislabeled or drifting concepts.
-- [[2024-CIKM]](https://dl.acm.org/doi/pdf/10.1145/3627673.3679795) **Semantic prototypes_Enhancing transparency without black boxes** [:octocat:](https://github.com/ails-lab/Semantic-Prototypes)
+- [[2024-CIKM]](https://dl.acm.org/doi/pdf/10.1145/3627673.3679795) **Semantic prototypes: Enhancing transparency without black boxes** [:octocat:](https://github.com/ails-lab/Semantic-Prototypes)
   - 简介（中文）: 用语义化原型替代纯特征原型，增强人可读性与跨域泛化潜力。
   - Intro (EN): Replaces raw feature prototypes with semantic prototypes for readability and cross-domain generalization.
 - [[2024-CVPR]](https://openaccess.thecvf.com/content/CVPR2024/papers/Wang_MCPNet_An_Interpretable_Classifier_via_Multi-Level_Concept_Prototypes_CVPR_2024_paper.pdf) **Mcpnet: An interpretable classifier via multi-level concept prototypes** [:octocat:](https://eddie221.github.io/MCPNet/)
@@ -318,7 +318,7 @@ The list covers interpretable, prototype/part-based vision papers, organized by 
 - [[2024-ICML]](https://openreview.net/pdf?id=jhWSzTO0Jl) **Post-hoc Part-Prototype Networks** [[other source]](https://hkustsmartlab.github.io/2024/06/08/icml/)
   - 简介（中文）: 在黑盒模型之上后验构建‘部件-原型’解释层，无需重训主干。
   - Intro (EN): Builds a post-hoc part-prototype layer on top of a black-box model without retraining the backbone.
-- [[2025-CVPR]](Rashomon sets for prototypical-part networks: Editing interpretable models in real-time) **Rashomon sets for prototypical-part networks_Editing interpretable models in real-time** [:octocat:](https://github.com/jdonnelly36/proto-rset)
+- [[2025-CVPR]](https://openaccess.thecvf.com/content/CVPR2025/papers/Donnelly_Rashomon_Sets_for_Prototypical-Part_Networks_Editing_Interpretable_Models_in_Real-Time_CVPR_2025_paper.pdf) **RRashomon sets for prototypical-part networks_Editing interpretable models in real-time** [:octocat:](https://github.com/jdonnelly36/proto-rset)
   - 简介（中文）: 刻画原型网络的‘拉绍蒙集合’，支持在等精度解空间内进行可控/实时编辑。
   - Intro (EN): Characterizes Rashomon sets for prototype networks, enabling controlled, real-time edits within equal-accuracy solutions.
 
@@ -357,7 +357,7 @@ The list covers interpretable, prototype/part-based vision papers, organized by 
 - [[2024-biomedinformatics]](https://www.mdpi.com/2673-7426/4/4/115) **Part-Prototype Models in Medical Imaging Applications and Current Challenges** [:octocat:](#)
   - 简介（中文）: 医学影像原型方法综述，系统梳理应用、挑战与未来方向。
   - Intro (EN): Survey of prototype-based methods in medical imaging: applications, challenges, and future directions.
-- [[2024-xAI]](https://arxiv.org/pdf/2403.20260) **Prototype-Based Interpretable Breast Cancer Prediction Models_Analysis and Challenges** [:octocat:](https://github.com/ShreyasiPathak/multiinstance-learning-mammography)[:octocat:](https://github.com/ShreyasiPathak/prototype-based-breast-cancer-prediction)
+- [[2024-xAI]](https://arxiv.org/pdf/2403.20260) **Prototype-based interpretable breast cancer prediction models: Analysis and challenges** [:octocat:](https://github.com/ShreyasiPathak/multiinstance-learning-mammography)[:octocat:](https://github.com/ShreyasiPathak/prototype-based-breast-cancer-prediction)
   - 简介（中文）: 乳腺影像方向的原型方法综述与挑战梳理。
   - Intro (EN): Review and challenges in breast imaging with prototype-based models.
 
@@ -506,7 +506,7 @@ The list covers interpretable, prototype/part-based vision papers, organized by 
 - [[2024-ICML]](https://openreview.net/pdf?id=jhWSzTO0Jl) **Post-hoc Part-Prototype Networks** [[other source]](https://hkustsmartlab.github.io/2024/06/08/icml/)
   - 简介（中文）: 在黑盒模型之上后验构建‘部件-原型’解释层，无需重训主干。
   - Intro (EN): Builds a post-hoc part-prototype layer on top of a black-box model without retraining the backbone.
-- [[2024-IJCAI]](https://www.ijcai.org/proceedings/2024/168) **ProtoPFormer_Concentrating on Prototypical Parts in Vision Transformers for Interpretable Image Recognitio** [:octocat:](https://github.com/zju-vipa/ProtoPFormer)
+- [[2024-IJCAI]](https://www.ijcai.org/proceedings/2024/168) **ProtoPFormer: Concentrating on Prototypical Parts in Vision Transformers for Interpretable Image Recognitio** [:octocat:](https://github.com/zju-vipa/ProtoPFormer)
   - 简介（中文）: 在ViT上专注于原型化的局部部件，抑制背景干扰，提升解释聚焦度。
   - Intro (EN): Prototype-focused ViT that suppresses background distraction, sharpening attention on meaningful parts.
 - [[2024-WACV]](https://openaccess.thecvf.com/content/WACV2024/papers/Carmichael_Pixel-Grounded_Prototypical_Part_Networks_WACV_2024_paper.pdf) **Pixel-grounded prototypical part networks** [:octocat:](https://github.com/merlresearch/PixPNet)
@@ -521,7 +521,7 @@ The list covers interpretable, prototype/part-based vision papers, organized by 
 - [[2025-CVPR]](https://openaccess.thecvf.com/content/CVPR2025/papers/Zhu_Interpretable_Image_Classification_via_Non-parametric_Part_Prototype_Learning_CVPR_2025_paper.pdf) **Interpretable Image Classification via Non-parametric Part Prototype Learning** [:octocat:](https://github.com/zijizhu/proto-non-param)
   - 简介（中文）: 学习非参数的部件原型集合，减少强假设并提升可编辑性。
   - Intro (EN): Learns non-parametric sets of part prototypes, reducing assumptions and enhancing editability.
-- [[2025-CVPR]](Rashomon sets for prototypical-part networks: Editing interpretable models in real-time) **Rashomon sets for prototypical-part networks_Editing interpretable models in real-time** [:octocat:](https://github.com/jdonnelly36/proto-rset)
+- [[2025-CVPR]](https://openaccess.thecvf.com/content/CVPR2025/papers/Donnelly_Rashomon_Sets_for_Prototypical-Part_Networks_Editing_Interpretable_Models_in_Real-Time_CVPR_2025_paper.pdf) **RRashomon sets for prototypical-part networks_Editing interpretable models in real-time** [:octocat:](https://github.com/jdonnelly36/proto-rset)
   - 简介（中文）: 刻画原型网络的‘拉绍蒙集合’，支持在等精度解空间内进行可控/实时编辑。
   - Intro (EN): Characterizes Rashomon sets for prototype networks, enabling controlled, real-time edits within equal-accuracy solutions.
 - [[2025-CVPRW]](https://openaccess.thecvf.com/content/CVPR2025W/TCV/papers/Singh_ProtoPatchNet_An_Interpretable_Patch-Based_Prototypical_Network_CVPRW_2025_paper.pdf) **ProtoPatchNet: An Interpretable Patch-Based Prototypical Network** 
@@ -530,7 +530,7 @@ The list covers interpretable, prototype/part-based vision papers, organized by 
 - [[2025-ICASSP]](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10890753&casa_token=CK3WkOK9TVsAAAAA:pBren1C90XkdKu7gUBnv5ReeSpxZ0zmhf2FeYqh-2t0gPXfpQPYsMb9onOdSyABmObSQkB_7dQ) **Prototypical Part Transformer for Interpretable Image Recognition**
   - 简介（中文）: 把部件原型与Transformer结构结合，统一表示学习与解释。
   - Intro (EN): Integrates part prototypes into a Transformer, unifying representation and explanation.
-- [[2025-ICCVW_BEW]](https://openreview.net/forum?id=PcF9Q51rF1&noteId=KSZAX91CoY) **HAPPI_Hyperbolic Hierarchical Part Prototypes for Image Recognition** 
+- [[2025-ICCVW_BEW]](https://openreview.net/forum?id=PcF9Q51rF1&noteId=KSZAX91CoY) **HAPPI: Hyperbolic Hierarchical Part Prototypes for Image Recognition** 
   - 简介（中文）: 在超曲几何中学习层级原型，提升层次结构表达与相似度度量。
   - Intro (EN): Learns hierarchical prototypes in hyperbolic geometry to better encode tree-like relations.
 - [[2025-ICLR]](https://openreview.net/forum?id=BM9qfolt6p) **LucidPPN: Unambiguous prototypical parts network for user-centric interpretable computer vision** [:octocat:](https://github.com/mateuszpach/LucidPPN)
