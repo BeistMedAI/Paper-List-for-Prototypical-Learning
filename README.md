@@ -79,7 +79,7 @@ The list covers interpretable, prototype/part-based vision papers, organized by 
 ## 🧰 How to Use
 - **By paradigm**: Need pixel-level evidence? See **K / D1**. Want a hierarchical reasoning chain? See **C**. Want ViT-coupled methods? Jump to **B**.
 - **By task**: For segmentation / keypoint / MIL / UDA, see **I**. For medical imaging, use **J** and pick by organ/modality subcategory.
-- **Code availability**: The [:octocat:] icon links to code. If it’s missing, the work is theory-oriented or not yet released.
+- **Code availability**: The :octocat: icon links to code. If it’s missing, the work is theory-oriented or not yet released.
 - **Timeline**: For the latest trends, start with **2024–2025** items in **B / D / K**.
 
 ## 📒 Cheatsheet
