@@ -131,14 +131,14 @@ The list covers interpretable, prototype/part-based vision papers, organized by 
 <img width="2175" height="517" alt="image" src="https://github.com/user-attachments/assets/c1be777e-c8d2-4d00-9855-87704a0d4f70" />
 
 - [[2022-ECCV]](https://arxiv.org/pdf/2112.02902) **Interpretable image classification with differentiable prototypes assignment** [:octocat:](https://github.com/gmum/ProtoPool)
-  - 简介（中文）: 将原型分配建模为可微分过程，提升原型学习的可控性与可训练性。
-  - Intro (EN): Formulates prototype assignment as a differentiable process to better control learning and consistency.
+  - 简介（中文）: 构建了 ProtoPool 模型，引入可共享原型库、可区分 (differentiable) 的原型与类别分配机制，并提出聚焦相似性（focal similarity）函数以凸显最具代表性的视觉部分，实现端到端正向推理、显著减少原型数量、提升可解释性与训练效率。该模型在 CUB‑200‑2011 和 Stanford Cars 数据集上以明显更少的原型取得了竞争性甚至优越的分类准确率，并通过理论分析与用户研究验证原型更具辨识性。 
+  - Intro (EN): Presents ProtoPool, an interpretable prototype‑based image classification model that introduces a differentiable assignment of prototypes to classes, reuse of prototypes across classes, and a focal similarity function to emphasize salient features. It enables end‑to‑end positive reasoning, significantly reduces the number of prototypes, simplifies training (avoiding pruning stages), and achieves state‑of‑the‑art or competitive accuracy on CUB‑200‑2011 and Stanford Cars datasets. Theoretical analysis and user studies demonstrate that its prototypes are more distinctive and interpretable.
  
 <img width="1234" height="619" alt="image" src="https://github.com/user-attachments/assets/ed18ef47-b3b1-4910-b36b-fc6f56e8edd1" />
 
-- [[2022-ICPR]](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9956087&casa_token=qU8gjXkiFFQAAAAA:SOJ6AV26izKgQkYbzp_n1yJ8A2W5cZslfpwaF8q8ZKMgqR9Gl2dqPmF56J0ZjjT72O7BXSjUkw&tag=1) **Multi-grained interpre table network for image recognition** 
-  - 简介（中文）: 提出原型/部件驱动的可解释识别方法；通过将图像局部与学习到的原型匹配，给出‘这看起来像那’的直观证据。
-  - Intro (EN): Prototype/part-based interpretable recognition method. Matches image regions to learned prototypes to provide intuitive 'this looks like that' evidence.
+- [[2022-ICPR]](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9956087&casa_token=mV6CJ9r3J_8AAAAA:11F0UeuihJi9QxN60t18atyV_XRbByfQ35jW-jqCF-8IGwsb83VsWKv7ZWamDQncH_zB-2My1w&tag=1) **Multi-grained interpre table network for image recognition** 
+  - 简介（中文）: 提出了一种“多粒度可解释网络”（Multi‑Grained Interpretable Network for Image Recognition），通过将类组织成层级结构并分配多个粒度的标签，使用树状结构的分类器在粗粒度到细粒度的层次上逐步进行分类决策，并可为每一步提供可解释的决策路径。在 CUB‑200‑2011 与 Stanford Cars 等细粒度图像识别数据集上实现了具有竞争力的分类性能，同时对抗 FGSM 和 PGD 等对抗样本显示出更高的鲁棒性。
+  - Intro (EN): Proposes a Multi‑Grained Interpretable Network for Image Recognition that organizes object classes into a hierarchical tree and assigns multi‑grained labels to training images. A tree‑structured classifier learns features at different granularity levels and makes predictions from coarse to fine, offering a clear decision pathway with explanations at each step. The method achieves competitive accuracy on fine‑grained datasets like CUB‑200‑2011 and Stanford Cars, and demonstrates improved robustness to adversarial attacks such as FGSM and PGD.
  
 <img width="1540" height="761" alt="image" src="https://github.com/user-attachments/assets/56ed3a48-6583-4b2d-aa1e-d627f954ca3c" />
 
