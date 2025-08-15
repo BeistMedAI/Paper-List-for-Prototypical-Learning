@@ -29,7 +29,7 @@
 </p>
 
 
-**🦉 Contributors: [Junhao Jia (23' HDU Undergraduate)](https://github.com/BeistMedAI), [Yifei Sun (22' HDU-ITMO Undergraduate)](https://diaoquesang.github.io/), [Yunyou Liu (23' HDU Undergraduate)](https://github.com/Yunyou-Liu), [Huangwei Chen (22' HDU Undergraduate)](https://huangwei-chen.github.io/), [Shuo Jiang (23' HDU Undergraduate)](https://github.com/JSLiam94), [Huangxing Lin (24' XDU Undergraduate)](https://github.com/Zoraaster1207), [Ziyan Luo (23' NHU Undergraduate)](https://github.com/Zoraaster1207), [Hanwen Zheng (23' HDU Undergraduate)](https://github.com/Zhenghanwen-zhw), [Yuting Shi (23' HDU Undergraduate)](https://github.com/sytttttttt)**
+**🦉 Contributors: [Junhao Jia (23' HDU Undergraduate)](https://github.com/BeistMedAI), [Yifei Sun (22' HDU-ITMO Undergraduate)](https://diaoquesang.github.io/), [Yunyou Liu (23' HDU Undergraduate)](https://github.com/Yunyou-Liu), [Huangwei Chen (22' HDU Undergraduate)](https://huangwei-chen.github.io/), [Shuo Jiang (23' HDU Undergraduate)](https://github.com/JSLiam94), [Huangxing Lin (24' XDU Undergraduate)](https://github.com/Zoraaster1207), [Ziyan Luo (23' HNU Undergraduate)](https://github.com/Zoraaster1207), [Hanwen Zheng (23' HDU Undergraduate)](https://github.com/Zhenghanwen-zhw), [Yuting Shi (23' HDU Undergraduate)](https://github.com/sytttttttt)**
 
 **🎓 DeepWiki: [Generating GitHub Knowledge Base Documentation in One Click](https://deepwiki.com/BeistMedAI/Paper-List-for-Prototypical-Learning).**
 
@@ -67,7 +67,7 @@ The list covers interpretable, prototype/part-based vision papers, organized by 
   ↳ [J5. Cephalometric/Dental X-ray](#s105) · [J6. Pathology—WSI/MIL](#s106) · [J7. Retina—Fundus](#s107) · [J8. Dermatology—Skin](#s108) · [J9. General/Multi-organ](#s109)
 - [K. 粒度强化 · Patch/Part/Pixel](#s11)
 
-## 🔎 Quick Start
+## 🔎 Quick Start 
 - 🧭 **Foundations**: This Looks Like That (NeurIPS 2019) → ProtoTree (CVPR 2021) → TesNet (ICCV 2021)
 - 🧩 **Patch/Pixel Evidence**: PIP-Net (CVPR 2023) → PixPNet (WACV 2024)
 - 🧠 **Transformer-based Prototypes**: ViT-NeT (ICML 2022) → ProtoPFormer (IJCAI 2024) → ProtoViT (NeurIPS 2024)
@@ -113,14 +113,14 @@ The list covers interpretable, prototype/part-based vision papers, organized by 
 <img width="1406" height="1016" alt="image" src="https://github.com/user-attachments/assets/10355364-1222-4078-8dd3-8ca1822d08d4" />
 
 - [[2021-ECML PKDD]](https://arxiv.org/pdf/2011.02863) **This looks like that, because... explaining prototypes for interpretable image recognition** [:octocat:](https://github.com/M-Nauta/Explaining_Prototypes)
-  - 简介（中文）: 开创“这像那”的原型-部件范式：学习若干原型部件，并以图像局部与原型的匹配作为决策证据，给出可视化的逐步解释。
-  - Intro (EN): Foundational 'This Looks Like That' prototype-part paradigm: learns a set of prototypical parts and matches them to image patches to justify decisions.
+  - 简介（中文）: 在“这像那”原型判别框架上更进一步：作者指出仅可视化原型不足以说明模型为何判定“相似”，因此为每个原型自动“加注释”。方法做受控图像变换——调整色相、降低饱和度/对比度、用非局部均值去噪以弱化纹理、用正弦形场进行形状扰动——再比较 ProtoPNet 中原型与原/改图的相似度差异，得到局部（面向单个图像-原型配对）与全局（面向该原型总体）重要性分数，从而将“在哪匹配”与“为何相似”解耦。在 CUB-200-2011 鸟类数据集上，作者展示了数值+可视化的解释，统计检验表明全局分数在训练/测试间稳定；该方法还能识别“误导性”原型并发现原型冗余（外观相近却侧重相同/互补的因素）。整体发现：色相/形状/纹理常主导相似性，而饱和度/对比度影响较弱。
+  - Intro (EN): This work advances “this looks like that” reasoning by explaining not just where a prototype fires but why. The authors augment visual prototypes with quantitative, human-interpretable factors by applying controlled edits—hue shifts, reduced saturation/contrast, non-local means denoising to attenuate texture, and sinusoidal warping to perturb shape—and measuring changes in ProtoPNet’s prototype–patch similarity. This yields local (image–prototype) and global (prototype-level) importance scores that disentangle localization from explanation. On CUB-200-2011 birds, the global scores are statistically stable across train/test; the method surfaces misleading prototypes and redundancy among visually similar ones; and it shows that hue/shape/texture can dominate while saturation/contrast matter less—providing visual plus numeric, step-by-step justifications.
  
 <img width="1377" height="353" alt="image" src="https://github.com/user-attachments/assets/1593c4f6-1f33-44de-befb-712bed72cc86" />
 
 - [[2021-ICCV]](https://openaccess.thecvf.com/content/ICCV2021/papers/Wang_Interpretable_Image_Recognition_by_Constructing_Transparent_Embedding_Space_ICCV_2021_paper.pdf) **Interpretable image recognition by constructing transparent embedding space** [:octocat:](https://github.com/JackeyWang96/TesNet)
-  - 简介（中文）: 构建“透明嵌入空间”，使原型与特征维度更易于人解释，减少黑盒感。
-  - Intro (EN): Builds a transparent embedding space to align features and prototypes with human-interpretable axes.
+  - 简介（中文）: 提出可插拔的“透明嵌入空间”（TesNet）：在常见 CNN 主干（VGG/ResNet/DenseNet）之上增设一层由“类别感知”的基础概念（basis concepts）张成的嵌入空间；同类概念之间施加正交规范（orthonormality loss），不同类别的子空间通过投影度量拉开间距（subspace separation loss），以实现概念的“去耦合、可区分”。每个概念都能回溯到其最相近的高层图像补丁（原型局部），并以全局最大池化汇聚来自所有 1×1 特征补丁的投影相似度；随后用稀疏的“概念→类别”权重矩阵完成判别，从而给出“这像那”的可视化证据并量化各概念对预测的贡献。方法在 CUB-200-2011（鸟类）与 Stanford Cars（车型）上验证，作为解释型方法在准确率与可解释性上同时取得优势且训练只用图像级标签。
+  - Intro (EN): Proposes a plug-in Transparent Embedding Space (TesNet) for interpretable recognition. TesNet spans an embedding space with class-aware basis concepts built on a Grassmann manifold; within-class concepts are enforced to be orthogonal (orthonormality loss) and inter-class subspaces are separated (subspace separation), yielding disentangled, discriminative concepts. Each concept is traced back to its most related high-level image patches, while a subspace layer computes projection scores from all 1×1 feature patches via global max pooling. A sparse concept-to-class weight matrix then performs classification, enabling visual “this-looks-like-that” justifications together with quantitative concept contributions. Evaluated on CUB-200-2011 birds and Stanford Cars, TesNet attains strong accuracy among interpretable methods using only image-level labels, and is implemented as a generic plug-in atop common CNN backbones.
  
 <img width="1290" height="506" alt="image" src="https://github.com/user-attachments/assets/3f71aab0-c6c9-4c5d-a8cf-afdede38cd53" />
 
