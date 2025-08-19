@@ -100,7 +100,7 @@ The list covers interpretable, prototype/part-based vision papers, organized by 
 
 ## <div id = "s1"></div> A. Foundations & general prototype-part models 
 
-- [[2019-NeurIPS]](https://proceedings.neurips.cc/paper/2019/file/adf7ee2dcf142b0e11888e72b43fcb75-Paper.pdf) **This looks like that: deep learning for interpretable image recognition** [:octocat:](https://github.com/jakesnell/prototypical-networks)
+- [[2019-NeurIPS]](https://proceedings.neurips.cc/paper/2019/file/adf7ee2dcf142b0e11888e72b43fcb75-Paper.pdf) **This looks like that: deep learning for interpretable image recognition** [:octocat:](https://github.com/cfchen-duke/ProtoPNet)
   - 简介（中文）: 开创“这像那”的原型-部件范式：学习若干原型部件，并以图像局部与原型的匹配作为决策证据，给出可视化的逐步解释。
   - Intro (EN): Foundational 'This Looks Like That' prototype-part paradigm: learns a set of prototypical parts and matches them to image patches to justify decisions.
 
