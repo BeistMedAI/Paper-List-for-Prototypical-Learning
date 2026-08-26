@@ -29,7 +29,7 @@
 </p>
 
 
-**🦉 Contributors: [Junhao Jia (23' HDU Undergraduate)](https://github.com/BeistMedAI), [Yifei Sun (22' HDU-ITMO Undergraduate)](https://diaoquesang.github.io/), [Yunyou Liu (23' HDU Undergraduate)](https://github.com/Yunyou-Liu), [Huangwei Chen (22' HDU Undergraduate)](https://huangwei-chen.github.io/), [Shuo Jiang (23' HDU Undergraduate)](https://github.com/JSLiam94), [Huangxing Lin (24' XDU Undergraduate)](https://github.com/Zoraaster1207), [Ziyan Luo (23' HNU Undergraduate)](https://github.com/Zoraaster1207), [Hanwen Zheng (23' HDU Undergraduate)](https://github.com/Zhenghanwen-zhw), [Yuting Shi (23' HDU Undergraduate)](https://github.com/sytttttttt)**
+**🦉 Contributors: [Junhao Jia (23' HDU Undergraduate)](https://github.com/BeistMedAI), [Yifei Sun (26' ZJU PhD)](https://diaoquesang.github.io/), [Yunyou Liu (23' HDU Undergraduate)](https://github.com/Yunyou-Liu), [Huangwei Chen (26' ZJU PhD)](https://huangwei-chen.github.io/), [Shuo Jiang (23' HDU Undergraduate)](https://github.com/JSLiam94), [Huangxing Lin (24' XDU Undergraduate)](https://github.com/Zoraaster1207), [Ziyan Luo (23' HNU Undergraduate)](https://github.com/Zoraaster1207), [Hanwen Zheng (23' HDU Undergraduate)](https://github.com/Zhenghanwen-zhw), [Yuting Shi (23' HDU Undergraduate)](https://github.com/sytttttttt)**
 
 **🎓 DeepWiki: [Generating GitHub Knowledge Base Documentation in One Click](https://deepwiki.com/BeistMedAI/Paper-List-for-Prototypical-Learning).**
 
